@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Borrador_1.Modelos;
 
 namespace Borrador_1.Formularios
 {
     public partial class FrmMain : Form
     {
+        private List<Vehiculo> listaVehiculos;
+
         public FrmMain()
         {
             InitializeComponent();
@@ -38,8 +41,8 @@ namespace Borrador_1.Formularios
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            FrmSearch frm = new FrmSearch();  
-            frm.Show();
+            FrmSearch frmSearch = new FrmSearch(listaVehiculos);
+            frmSearch.Show();
             this.Hide();       
         }
 

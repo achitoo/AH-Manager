@@ -8,7 +8,7 @@ namespace Borrador_1.Formularios
 {
     public partial class FrmOrder : Form
     {
-        private List<Vehiculo> listaVehiculos = new List<Vehiculo>();
+        public List<Vehiculo> listaVehiculos = new List<Vehiculo>();
         private int indiceFilaSeleccionada = -1;
 
         public FrmOrder()
