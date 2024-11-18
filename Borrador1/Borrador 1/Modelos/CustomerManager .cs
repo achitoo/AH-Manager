@@ -3,52 +3,73 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Borrador_1.Modelos;
+using System.Windows.Forms;
+using System.IO;
 
 namespace Borrador_1.Funciones
 {
-    internal class CustomerManager
+    public class CustomerManager
     {
-        private CustomerRepository repository;
+        public List<Cliente> ListaClientes { get; private set; }
 
-        public CustomerManager(CustomerRepository repo)
+        public CustomerManager()
         {
-            repository = repo;
+            ListaClientes = new List<Cliente>();
         }
 
-        public List<Customer> GetCustomers()
+        public void AgregarCliente(Cliente cliente)
         {
-            return repository.GetAllCustomers();
+            ListaClientes.Add(cliente);
         }
 
-        public void AddCustomer(string dni, string name, string address, string contact, string email)
+        public void EditarCliente(int indice, Cliente cliente)
         {
-            var customer = new Customer
+            if (indice >= 0 && indice < ListaClientes.Count)
             {
-                DNI = dni,
-                Name = name,
-                Address = address,
-                Contact = contact,
-                Email = email
-            };
-            repository.AddCustomer(customer);
+                ListaClientes[indice] = cliente;
+            }
         }
 
-        public void EditCustomer(string dni, string name, string address, string contact, string email)
+        public void EliminarCliente(int indice)
         {
-            var updatedCustomer = new Customer
+            if (indice >= 0 && indice < ListaClientes.Count)
             {
-                DNI = dni,
-                Name = name,
-                Address = address,
-                Contact = contact,
-                Email = email
-            };
-            repository.UpdateCustomer(dni, updatedCustomer);
+                ListaClientes.RemoveAt(indice);
+            }
         }
 
-        public void DeleteCustomer(string dni)
+        public void CargarDesdeArchivo(string rutaArchivo)
         {
-            repository.DeleteCustomer(dni);
+            ListaClientes.Clear();
+            if (File.Exists(rutaArchivo))
+            {
+                using (StreamReader sr = new StreamReader(rutaArchivo))
+                {
+                    string linea;
+                    while ((linea = sr.ReadLine()) != null)
+                    {
+                        string[] datos = linea.Split(',');
+                        if (datos.Length == 5)
+                        {
+                            ListaClientes.Add(new Cliente(
+                                datos[0], datos[1], datos[2], datos[3], datos[4]
+                            ));
+                        }
+                    }
+                }
+            }
+        }
+
+        public void GuardarEnArchivo(string rutaArchivo)
+        {
+            using (StreamWriter sw = new StreamWriter(rutaArchivo))
+            {
+                foreach (var cliente in ListaClientes)
+                {
+                    sw.WriteLine($"{cliente.Cedula},{cliente.Nombre},{cliente.Direccion},{cliente.Contacto},{cliente.Correo}");
+                }
+            }
         }
     }
 }
