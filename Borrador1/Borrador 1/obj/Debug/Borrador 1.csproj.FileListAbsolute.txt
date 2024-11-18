@@ -1,0 +1,30 @@
+C:\Users\mario\Downloads\Proyecto Final Segundo semestre\Proyecto Final Segundo semestre\Borrador 1\Borrador 1\bin\Debug\Borrador 1.exe.config
+C:\Users\mario\Downloads\Proyecto Final Segundo semestre\Proyecto Final Segundo semestre\Borrador 1\Borrador 1\bin\Debug\Borrador 1.exe
+C:\Users\mario\Downloads\Proyecto Final Segundo semestre\Proyecto Final Segundo semestre\Borrador 1\Borrador 1\bin\Debug\Borrador 1.pdb
+C:\Users\mario\Downloads\Proyecto Final Segundo semestre\Proyecto Final Segundo semestre\Borrador 1\Borrador 1\obj\Debug\Borrador 1.csproj.AssemblyReference.cache
+C:\Users\mario\Downloads\Proyecto Final Segundo semestre\Proyecto Final Segundo semestre\Borrador 1\Borrador 1\obj\Debug\Borrador_1.Formularios.FrmCustomer.resources
+C:\Users\mario\Downloads\Proyecto Final Segundo semestre\Proyecto Final Segundo semestre\Borrador 1\Borrador 1\obj\Debug\Borrador_1.Formularios.FrmCustomerAdd.resources
+C:\Users\mario\Downloads\Proyecto Final Segundo semestre\Proyecto Final Segundo semestre\Borrador 1\Borrador 1\obj\Debug\Borrador_1.Formularios.FrmMain.resources
+C:\Users\mario\Downloads\Proyecto Final Segundo semestre\Proyecto Final Segundo semestre\Borrador 1\Borrador 1\obj\Debug\Borrador_1.Formularios.FrmOrder.resources
+C:\Users\mario\Downloads\Proyecto Final Segundo semestre\Proyecto Final Segundo semestre\Borrador 1\Borrador 1\obj\Debug\Borrador_1.Formularios.FrmSearch.resources
+C:\Users\mario\Downloads\Proyecto Final Segundo semestre\Proyecto Final Segundo semestre\Borrador 1\Borrador 1\obj\Debug\Borrador_1.FrmLogin.resources
+C:\Users\mario\Downloads\Proyecto Final Segundo semestre\Proyecto Final Segundo semestre\Borrador 1\Borrador 1\obj\Debug\Borrador_1.Properties.Resources.resources
+C:\Users\mario\Downloads\Proyecto Final Segundo semestre\Proyecto Final Segundo semestre\Borrador 1\Borrador 1\obj\Debug\Borrador 1.csproj.GenerateResource.cache
+C:\Users\mario\Downloads\Proyecto Final Segundo semestre\Proyecto Final Segundo semestre\Borrador 1\Borrador 1\obj\Debug\Borrador 1.csproj.CoreCompileInputs.cache
+C:\Users\mario\Downloads\Proyecto Final Segundo semestre\Proyecto Final Segundo semestre\Borrador 1\Borrador 1\obj\Debug\Borrador 1.exe
+C:\Users\mario\Downloads\Proyecto Final Segundo semestre\Proyecto Final Segundo semestre\Borrador 1\Borrador 1\obj\Debug\Borrador 1.pdb
+C:\Users\lolv7\OneDrive\Desktop\Repositorio clonado\BorradorProyectofinalMet\Borrador 1\Borrador 1\bin\Debug\Borrador 1.exe.config
+C:\Users\lolv7\OneDrive\Desktop\Repositorio clonado\BorradorProyectofinalMet\Borrador 1\Borrador 1\bin\Debug\Borrador 1.exe
+C:\Users\lolv7\OneDrive\Desktop\Repositorio clonado\BorradorProyectofinalMet\Borrador 1\Borrador 1\bin\Debug\Borrador 1.pdb
+C:\Users\lolv7\OneDrive\Desktop\Repositorio clonado\BorradorProyectofinalMet\Borrador 1\Borrador 1\obj\Debug\Borrador 1.csproj.AssemblyReference.cache
+C:\Users\lolv7\OneDrive\Desktop\Repositorio clonado\BorradorProyectofinalMet\Borrador 1\Borrador 1\obj\Debug\Borrador_1.Formularios.FrmCustomer.resources
+C:\Users\lolv7\OneDrive\Desktop\Repositorio clonado\BorradorProyectofinalMet\Borrador 1\Borrador 1\obj\Debug\Borrador_1.Formularios.FrmCustomerAdd.resources
+C:\Users\lolv7\OneDrive\Desktop\Repositorio clonado\BorradorProyectofinalMet\Borrador 1\Borrador 1\obj\Debug\Borrador_1.Formularios.FrmMain.resources
+C:\Users\lolv7\OneDrive\Desktop\Repositorio clonado\BorradorProyectofinalMet\Borrador 1\Borrador 1\obj\Debug\Borrador_1.Formularios.FrmOrder.resources
+C:\Users\lolv7\OneDrive\Desktop\Repositorio clonado\BorradorProyectofinalMet\Borrador 1\Borrador 1\obj\Debug\Borrador_1.Formularios.FrmSearch.resources
+C:\Users\lolv7\OneDrive\Desktop\Repositorio clonado\BorradorProyectofinalMet\Borrador 1\Borrador 1\obj\Debug\Borrador_1.FrmLogin.resources
+C:\Users\lolv7\OneDrive\Desktop\Repositorio clonado\BorradorProyectofinalMet\Borrador 1\Borrador 1\obj\Debug\Borrador_1.Properties.Resources.resources
+C:\Users\lolv7\OneDrive\Desktop\Repositorio clonado\BorradorProyectofinalMet\Borrador 1\Borrador 1\obj\Debug\Borrador 1.csproj.GenerateResource.cache
+C:\Users\lolv7\OneDrive\Desktop\Repositorio clonado\BorradorProyectofinalMet\Borrador 1\Borrador 1\obj\Debug\Borrador 1.csproj.CoreCompileInputs.cache
+C:\Users\lolv7\OneDrive\Desktop\Repositorio clonado\BorradorProyectofinalMet\Borrador 1\Borrador 1\obj\Debug\Borrador 1.exe
+C:\Users\lolv7\OneDrive\Desktop\Repositorio clonado\BorradorProyectofinalMet\Borrador 1\Borrador 1\obj\Debug\Borrador 1.pdb
