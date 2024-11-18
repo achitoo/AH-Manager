@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\lolv7\\OneDrive\\Desktop\\Repositorio clonado\\50%\\AH-Manager\\Borrador1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|c:\\users\\lolv7\\onedrive\\desktop\\repositorio clonado\\50%\\ah-manager\\borrador1\\borrador 1\\formularios\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|solutionrelative:borrador 1\\formularios\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|C:\\Users\\lolv7\\OneDrive\\Desktop\\Repositorio clonado\\50%\\AH-Manager\\Borrador1\\borrador 1\\formularios\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|c:\\users\\lolv7\\onedrive\\desktop\\repositorio clonado\\50%\\ah-manager\\borrador1\\borrador 1\\formularios\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|solutionrelative:borrador 1\\formularios\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|C:\\Users\\lolv7\\OneDrive\\Desktop\\Repositorio clonado\\50%\\AH-Manager\\Borrador1\\borrador 1\\modelos\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|solutionrelative:borrador 1\\modelos\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|C:\\Users\\lolv7\\OneDrive\\Desktop\\Repositorio clonado\\50%\\AH-Manager\\Borrador1\\borrador 1\\formularios\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|solutionrelative:borrador 1\\formularios\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,39 +30,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Vehiculo.cs",
-              "DocumentMoniker": "C:\\Users\\lolv7\\OneDrive\\Desktop\\Repositorio clonado\\50%\\AH-Manager\\Borrador1\\Borrador 1\\Modelos\\Vehiculo.cs",
-              "RelativeDocumentMoniker": "Borrador 1\\Modelos\\Vehiculo.cs",
-              "ToolTip": "C:\\Users\\lolv7\\OneDrive\\Desktop\\Repositorio clonado\\50%\\AH-Manager\\Borrador1\\Borrador 1\\Modelos\\Vehiculo.cs",
-              "RelativeToolTip": "Borrador 1\\Modelos\\Vehiculo.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAUwBkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FrmOrder.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lolv7\\OneDrive\\Desktop\\Repositorio clonado\\50%\\AH-Manager\\Borrador1\\Borrador 1\\Formularios\\FrmOrder.cs",
+              "RelativeDocumentMoniker": "Borrador 1\\Formularios\\FrmOrder.cs",
+              "ToolTip": "C:\\Users\\lolv7\\OneDrive\\Desktop\\Repositorio clonado\\50%\\AH-Manager\\Borrador1\\Borrador 1\\Formularios\\FrmOrder.cs [Design]",
+              "RelativeToolTip": "Borrador 1\\Formularios\\FrmOrder.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T01:41:12.547Z"
+              "WhenOpened": "2024-11-18T10:44:44.637Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FrmOrder.cs",
               "DocumentMoniker": "C:\\Users\\lolv7\\OneDrive\\Desktop\\Repositorio clonado\\50%\\AH-Manager\\Borrador1\\Borrador 1\\Formularios\\FrmOrder.cs",
               "RelativeDocumentMoniker": "Borrador 1\\Formularios\\FrmOrder.cs",
               "ToolTip": "C:\\Users\\lolv7\\OneDrive\\Desktop\\Repositorio clonado\\50%\\AH-Manager\\Borrador1\\Borrador 1\\Formularios\\FrmOrder.cs",
               "RelativeToolTip": "Borrador 1\\Formularios\\FrmOrder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAowKwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T00:21:20.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmOrder.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\lolv7\\OneDrive\\Desktop\\Repositorio clonado\\50%\\AH-Manager\\Borrador1\\Borrador 1\\Formularios\\FrmOrder.cs",
-              "RelativeDocumentMoniker": "Borrador 1\\Formularios\\FrmOrder.cs",
-              "ToolTip": "C:\\Users\\lolv7\\OneDrive\\Documentos\\AH Manager\\Borrador1\\Borrador 1\\Formularios\\FrmOrder.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Documentos\\AH Manager\\Borrador1\\Borrador 1\\Formularios\\FrmOrder.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T00:20:39.523Z"
+              "WhenOpened": "2024-11-18T00:21:20.689Z"
             }
           ]
         }

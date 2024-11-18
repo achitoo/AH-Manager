@@ -36,9 +36,6 @@
             this.tbMontoTotal = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.btnSave = new System.Windows.Forms.ToolStripButton();
-            this.btnEdit = new System.Windows.Forms.ToolStripButton();
-            this.btnDelete = new System.Windows.Forms.ToolStripButton();
             this.tbBrand = new System.Windows.Forms.TextBox();
             this.tbYear = new System.Windows.Forms.TextBox();
             this.tbDetails = new System.Windows.Forms.TextBox();
@@ -47,9 +44,16 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.toolStrip2 = new System.Windows.Forms.ToolStrip();
+            this.btnSaveFile = new System.Windows.Forms.ToolStripButton();
+            this.btnLoadFile = new System.Windows.Forms.ToolStripButton();
+            this.btnSave = new System.Windows.Forms.ToolStripButton();
+            this.btnEdit = new System.Windows.Forms.ToolStripButton();
+            this.btnDelete = new System.Windows.Forms.ToolStripButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgbOrder)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
+            this.toolStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -64,7 +68,7 @@
             // 
             // btnBackOrderFrmToMain
             // 
-            this.btnBackOrderFrmToMain.Location = new System.Drawing.Point(691, 12);
+            this.btnBackOrderFrmToMain.Location = new System.Drawing.Point(693, 26);
             this.btnBackOrderFrmToMain.Name = "btnBackOrderFrmToMain";
             this.btnBackOrderFrmToMain.Size = new System.Drawing.Size(117, 55);
             this.btnBackOrderFrmToMain.TabIndex = 8;
@@ -84,6 +88,8 @@
             // 
             // dgbOrder
             // 
+            this.dgbOrder.AllowUserToAddRows = false;
+            this.dgbOrder.AllowUserToDeleteRows = false;
             this.dgbOrder.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgbOrder.Location = new System.Drawing.Point(290, 131);
             this.dgbOrder.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -92,6 +98,7 @@
             this.dgbOrder.RowTemplate.Height = 28;
             this.dgbOrder.Size = new System.Drawing.Size(520, 325);
             this.dgbOrder.TabIndex = 10;
+            this.dgbOrder.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgbOrder_CellClick);
             // 
             // groupBox1
             // 
@@ -138,39 +145,9 @@
             this.btnDelete});
             this.toolStrip1.Location = new System.Drawing.Point(3, 18);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(268, 27);
+            this.toolStrip1.Size = new System.Drawing.Size(268, 31);
             this.toolStrip1.TabIndex = 8;
             this.toolStrip1.Text = "toolStrip1";
-            // 
-            // btnSave
-            // 
-            this.btnSave.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.btnSave.Image = global::Borrador_1.Properties.Resources.Guardar;
-            this.btnSave.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(29, 24);
-            this.btnSave.Text = "Guardar";
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
-            // 
-            // btnEdit
-            // 
-            this.btnEdit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.btnEdit.Image = global::Borrador_1.Properties.Resources.Editar;
-            this.btnEdit.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(29, 24);
-            this.btnEdit.Text = "Editar";
-            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.btnDelete.Image = global::Borrador_1.Properties.Resources.eliminar;
-            this.btnDelete.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(29, 24);
-            this.btnDelete.Text = "Eliminar";
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // tbBrand
             // 
@@ -238,11 +215,74 @@
             this.label7.TabIndex = 0;
             this.label7.Text = "Modelo";
             // 
+            // toolStrip2
+            // 
+            this.toolStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.btnSaveFile,
+            this.btnLoadFile});
+            this.toolStrip2.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip2.Name = "toolStrip2";
+            this.toolStrip2.Size = new System.Drawing.Size(820, 31);
+            this.toolStrip2.TabIndex = 12;
+            this.toolStrip2.Text = "toolStrip2";
+            // 
+            // btnSaveFile
+            // 
+            this.btnSaveFile.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnSaveFile.Image = global::Borrador_1.Properties.Resources.GuardarArch;
+            this.btnSaveFile.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnSaveFile.Name = "btnSaveFile";
+            this.btnSaveFile.Size = new System.Drawing.Size(29, 28);
+            this.btnSaveFile.Text = "Guardar archivo";
+            this.btnSaveFile.Click += new System.EventHandler(this.btnSaveFile_Click);
+            // 
+            // btnLoadFile
+            // 
+            this.btnLoadFile.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnLoadFile.Image = global::Borrador_1.Properties.Resources.Cargar;
+            this.btnLoadFile.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnLoadFile.Name = "btnLoadFile";
+            this.btnLoadFile.Size = new System.Drawing.Size(29, 28);
+            this.btnLoadFile.Text = "Cargar archivo";
+            this.btnLoadFile.Click += new System.EventHandler(this.btnLoadFile_Click);
+            // 
+            // btnSave
+            // 
+            this.btnSave.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnSave.Image = global::Borrador_1.Properties.Resources.Guardar;
+            this.btnSave.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(29, 28);
+            this.btnSave.Text = "Guardar";
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // btnEdit
+            // 
+            this.btnEdit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnEdit.Image = global::Borrador_1.Properties.Resources.Editar;
+            this.btnEdit.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(29, 28);
+            this.btnEdit.Text = "Editar";
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnDelete.Image = global::Borrador_1.Properties.Resources.eliminar;
+            this.btnDelete.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(29, 28);
+            this.btnDelete.Text = "Eliminar";
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
             // FrmOrder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(820, 477);
+            this.Controls.Add(this.toolStrip2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dgbOrder);
             this.Controls.Add(this.groupBox1);
@@ -256,6 +296,8 @@
             this.groupBox1.PerformLayout();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
+            this.toolStrip2.ResumeLayout(false);
+            this.toolStrip2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -281,5 +323,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ToolStrip toolStrip2;
+        private System.Windows.Forms.ToolStripButton btnSaveFile;
+        private System.Windows.Forms.ToolStripButton btnLoadFile;
     }
 }
