@@ -28,67 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dgvCostumer = new System.Windows.Forms.DataGridView();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.BtnAddCustomer = new System.Windows.Forms.Button();
-            this.btnDeleteCostumer = new System.Windows.Forms.Button();
-            this.btnEditCostumer = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btnBackOrderFrmToMain = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvCostumer)).BeginInit();
+            this.label2 = new System.Windows.Forms.Label();
+            this.dgbOrder = new System.Windows.Forms.DataGridView();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.tbMontoTotal = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.btnSave = new System.Windows.Forms.ToolStripButton();
+            this.btnEdit = new System.Windows.Forms.ToolStripButton();
+            this.btnDelete = new System.Windows.Forms.ToolStripButton();
+            this.tbBrand = new System.Windows.Forms.TextBox();
+            this.tbYear = new System.Windows.Forms.TextBox();
+            this.tbDetails = new System.Windows.Forms.TextBox();
+            this.tbModel = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.dgbOrder)).BeginInit();
             this.groupBox1.SuspendLayout();
+            this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // dgvCostumer
-            // 
-            this.dgvCostumer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCostumer.Location = new System.Drawing.Point(371, 102);
-            this.dgvCostumer.Name = "dgvCostumer";
-            this.dgvCostumer.RowHeadersWidth = 51;
-            this.dgvCostumer.RowTemplate.Height = 24;
-            this.dgvCostumer.Size = new System.Drawing.Size(415, 310);
-            this.dgvCostumer.TabIndex = 4;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.BtnAddCustomer);
-            this.groupBox1.Controls.Add(this.btnDeleteCostumer);
-            this.groupBox1.Controls.Add(this.btnEditCostumer);
-            this.groupBox1.Location = new System.Drawing.Point(100, 102);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(239, 310);
-            this.groupBox1.TabIndex = 6;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Seleccione una opcion";
-            // 
-            // BtnAddCustomer
-            // 
-            this.BtnAddCustomer.Location = new System.Drawing.Point(36, 21);
-            this.BtnAddCustomer.Name = "BtnAddCustomer";
-            this.BtnAddCustomer.Size = new System.Drawing.Size(166, 46);
-            this.BtnAddCustomer.TabIndex = 0;
-            this.BtnAddCustomer.Text = "Agregar";
-            this.BtnAddCustomer.UseVisualStyleBackColor = true;
-            // 
-            // btnDeleteCostumer
-            // 
-            this.btnDeleteCostumer.Location = new System.Drawing.Point(36, 181);
-            this.btnDeleteCostumer.Name = "btnDeleteCostumer";
-            this.btnDeleteCostumer.Size = new System.Drawing.Size(166, 46);
-            this.btnDeleteCostumer.TabIndex = 2;
-            this.btnDeleteCostumer.Text = "Eliminar";
-            this.btnDeleteCostumer.UseVisualStyleBackColor = true;
-            // 
-            // btnEditCostumer
-            // 
-            this.btnEditCostumer.Location = new System.Drawing.Point(36, 101);
-            this.btnEditCostumer.Name = "btnEditCostumer";
-            this.btnEditCostumer.Size = new System.Drawing.Size(166, 46);
-            this.btnEditCostumer.TabIndex = 1;
-            this.btnEditCostumer.Text = "Editar";
-            this.btnEditCostumer.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -110,33 +72,214 @@
             this.btnBackOrderFrmToMain.UseVisualStyleBackColor = true;
             this.btnBackOrderFrmToMain.Click += new System.EventHandler(this.btnBackOrderFrmToMain_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Uighur", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(187, 21);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(321, 79);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Gestion de orden";
+            // 
+            // dgbOrder
+            // 
+            this.dgbOrder.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgbOrder.Location = new System.Drawing.Point(290, 131);
+            this.dgbOrder.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dgbOrder.Name = "dgbOrder";
+            this.dgbOrder.RowHeadersWidth = 62;
+            this.dgbOrder.RowTemplate.Height = 28;
+            this.dgbOrder.Size = new System.Drawing.Size(520, 325);
+            this.dgbOrder.TabIndex = 10;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.tbMontoTotal);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.toolStrip1);
+            this.groupBox1.Controls.Add(this.tbBrand);
+            this.groupBox1.Controls.Add(this.tbYear);
+            this.groupBox1.Controls.Add(this.tbDetails);
+            this.groupBox1.Controls.Add(this.tbModel);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Location = new System.Drawing.Point(11, 131);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(274, 324);
+            this.groupBox1.TabIndex = 9;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Datos General";
+            // 
+            // tbMontoTotal
+            // 
+            this.tbMontoTotal.Location = new System.Drawing.Point(105, 238);
+            this.tbMontoTotal.Name = "tbMontoTotal";
+            this.tbMontoTotal.Size = new System.Drawing.Size(100, 22);
+            this.tbMontoTotal.TabIndex = 10;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(7, 243);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(72, 16);
+            this.label6.TabIndex = 9;
+            this.label6.Text = "Monto total";
+            // 
+            // toolStrip1
+            // 
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.btnSave,
+            this.btnEdit,
+            this.btnDelete});
+            this.toolStrip1.Location = new System.Drawing.Point(3, 18);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(268, 27);
+            this.toolStrip1.TabIndex = 8;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // btnSave
+            // 
+            this.btnSave.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnSave.Image = global::Borrador_1.Properties.Resources.Guardar;
+            this.btnSave.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(29, 24);
+            this.btnSave.Text = "Guardar";
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // btnEdit
+            // 
+            this.btnEdit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnEdit.Image = global::Borrador_1.Properties.Resources.Editar;
+            this.btnEdit.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(29, 24);
+            this.btnEdit.Text = "Editar";
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnDelete.Image = global::Borrador_1.Properties.Resources.eliminar;
+            this.btnDelete.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(29, 24);
+            this.btnDelete.Text = "Eliminar";
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // tbBrand
+            // 
+            this.tbBrand.Location = new System.Drawing.Point(105, 52);
+            this.tbBrand.Name = "tbBrand";
+            this.tbBrand.Size = new System.Drawing.Size(100, 22);
+            this.tbBrand.TabIndex = 5;
+            // 
+            // tbYear
+            // 
+            this.tbYear.Location = new System.Drawing.Point(105, 203);
+            this.tbYear.Name = "tbYear";
+            this.tbYear.Size = new System.Drawing.Size(100, 22);
+            this.tbYear.TabIndex = 7;
+            // 
+            // tbDetails
+            // 
+            this.tbDetails.Location = new System.Drawing.Point(105, 121);
+            this.tbDetails.Multiline = true;
+            this.tbDetails.Name = "tbDetails";
+            this.tbDetails.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.tbDetails.Size = new System.Drawing.Size(100, 59);
+            this.tbDetails.TabIndex = 6;
+            // 
+            // tbModel
+            // 
+            this.tbModel.Location = new System.Drawing.Point(105, 83);
+            this.tbModel.Name = "tbModel";
+            this.tbModel.Size = new System.Drawing.Size(100, 22);
+            this.tbModel.TabIndex = 4;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(6, 206);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(31, 16);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "Año";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 139);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(94, 16);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Detalles del V.";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(6, 58);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(45, 16);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Marca";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(6, 89);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(53, 16);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Modelo";
+            // 
             // FrmOrder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(820, 477);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.dgbOrder);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnBackOrderFrmToMain);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.dgvCostumer);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FrmOrder";
             this.Text = "FrmOrder";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvCostumer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgbOrder)).EndInit();
             this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView dgvCostumer;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button BtnAddCustomer;
-        private System.Windows.Forms.Button btnDeleteCostumer;
-        private System.Windows.Forms.Button btnEditCostumer;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnBackOrderFrmToMain;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.DataGridView dgbOrder;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TextBox tbMontoTotal;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripButton btnSave;
+        private System.Windows.Forms.ToolStripButton btnEdit;
+        private System.Windows.Forms.ToolStripButton btnDelete;
+        private System.Windows.Forms.TextBox tbBrand;
+        private System.Windows.Forms.TextBox tbYear;
+        private System.Windows.Forms.TextBox tbDetails;
+        private System.Windows.Forms.TextBox tbModel;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label7;
     }
 }
