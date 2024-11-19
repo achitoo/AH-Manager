@@ -14,7 +14,6 @@ namespace Borrador_1.Funciones
             // Aquí se verifica el usuario y la contraseña
             if (user == "admin" && password == "123")
             {
-                MessageBox.Show("Bienvenido " + user);
                 return true;
             }
             else

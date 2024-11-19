@@ -13,7 +13,6 @@ namespace Borrador_1.Formularios
 {
     public partial class FrmMain : Form
     {
-        private List<Vehiculo> listaVehiculos;
 
         public FrmMain()
         {
@@ -41,7 +40,7 @@ namespace Borrador_1.Formularios
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            FrmSearch frmSearch = new FrmSearch(listaVehiculos);
+            FrmSearch frmSearch = new FrmSearch();
             frmSearch.Show();
             this.Hide();       
         }

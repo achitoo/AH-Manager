@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Borrador_1.Modelos
 {
-    public class Vehiculo
+    public class Vehicle
     {
         public string Marca { get; set; }
         public string Modelo { get; set; }
@@ -14,7 +14,7 @@ namespace Borrador_1.Modelos
         public string Año { get; set; }
         public string MontoTotal { get; set; }
 
-        public Vehiculo(string marca, string modelo, string detalles, string año, string montoTotal)
+        public Vehicle(string marca, string modelo, string detalles, string año, string montoTotal)
         {
             Marca = marca;
             Modelo = modelo;
