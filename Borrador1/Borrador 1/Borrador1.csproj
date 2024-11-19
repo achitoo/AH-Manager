@@ -107,7 +107,6 @@
     </Compile>
     <Compile Include="Modelos\Customer.cs" />
     <Compile Include="Modelos\CustomerManager .cs" />
-    <Compile Include="Modelos\CustomerRepository .cs" />
     <Compile Include="Modelos\Validate.cs" />
     <Compile Include="Modelos\Vehiculo.cs" />
     <Compile Include="Program.cs" />
