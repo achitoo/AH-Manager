@@ -22,7 +22,6 @@ namespace Borrador_1.Formularios
         public FrmOrder()
         {
             InitializeComponent();
-            LoadVehicles();
             // Desactivar AutoGenerateColumns
             dgbOrder.AutoGenerateColumns = false;
 
@@ -32,6 +31,7 @@ namespace Borrador_1.Formularios
             dgbOrder.Columns.Add("Detalles", "Detalles");
             dgbOrder.Columns.Add("Año", "Año");
             dgbOrder.Columns.Add("MontoTotal", "Monto Total");
+            LoadVehicles();
         }
 
         private void LoadVehicles()

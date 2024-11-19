@@ -21,9 +21,6 @@ namespace Borrador_1.Modelos
             Detalles = detalles;
             Año = año;
             MontoTotal = montoTotal;
-
         }
-
     }
-
 }
