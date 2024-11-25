@@ -3,8 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|c:\\users\\mario\\downloads\\ah-manager\\ah-manager\\borrador1\\borrador 1\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|c:\\users\\mario\\downloads\\ah-manager\\ah-manager\\borrador1\\borrador 1\\formularios\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|solutionrelative:borrador 1\\formularios\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|c:\\users\\mario\\downloads\\ah-manager\\ah-manager\\borrador1\\borrador 1\\modelos\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|solutionrelative:borrador 1\\modelos\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\borrador 1\\modelos\\vehiclemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|solutionrelative:borrador 1\\modelos\\vehiclemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\borrador 1\\formularios\\frmcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|solutionrelative:borrador 1\\formularios\\frmcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\borrador 1\\formularios\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|solutionrelative:borrador 1\\formularios\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\borrador 1\\formularios\\frmcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|solutionrelative:borrador 1\\formularios\\frmcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\borrador 1\\formularios\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|solutionrelative:borrador 1\\formularios\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\borrador 1\\formularios\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|solutionrelative:borrador 1\\formularios\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\borrador 1\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|solutionrelative:borrador 1\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\borrador 1\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|solutionrelative:borrador 1\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\borrador 1\\modelos\\validate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|solutionrelative:borrador 1\\modelos\\validate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\borrador 1\\modelos\\customermanager .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619CAC15-4A41-426D-A76A-752B719D3602}|Borrador 1\\Borrador1.csproj|solutionrelative:borrador 1\\modelos\\customermanager .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +58,151 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "FrmCustomer.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\Borrador 1\\Formularios\\FrmCustomer.cs",
+              "RelativeDocumentMoniker": "Borrador 1\\Formularios\\FrmCustomer.cs",
+              "ToolTip": "C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\Borrador 1\\Formularios\\FrmCustomer.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Borrador 1\\Formularios\\FrmCustomer.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:20:00.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "FrmLogin.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\Borrador 1\\FrmLogin.cs",
               "RelativeDocumentMoniker": "Borrador 1\\FrmLogin.cs",
               "ToolTip": "C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\Borrador 1\\FrmLogin.cs [Dise\u00F1o]",
               "RelativeToolTip": "Borrador 1\\FrmLogin.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T16:14:34.482Z",
+              "WhenOpened": "2024-11-19T17:12:10.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmMain.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\Borrador 1\\Formularios\\FrmMain.cs",
+              "RelativeDocumentMoniker": "Borrador 1\\Formularios\\FrmMain.cs",
+              "ToolTip": "C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\Borrador 1\\Formularios\\FrmMain.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Borrador 1\\Formularios\\FrmMain.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:12:05.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmMain.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\Borrador 1\\Formularios\\FrmMain.cs",
+              "RelativeDocumentMoniker": "Borrador 1\\Formularios\\FrmMain.cs",
+              "ToolTip": "C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\Borrador 1\\Formularios\\FrmMain.cs",
+              "RelativeToolTip": "Borrador 1\\Formularios\\FrmMain.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwCMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:06:14.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmOrder.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\Borrador 1\\Formularios\\FrmOrder.cs",
+              "RelativeDocumentMoniker": "Borrador 1\\Formularios\\FrmOrder.cs",
+              "ToolTip": "C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\Borrador 1\\Formularios\\FrmOrder.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Borrador 1\\Formularios\\FrmOrder.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:06:06.222Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VehicleManager.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\Borrador 1\\Modelos\\VehicleManager.cs",
+              "RelativeDocumentMoniker": "Borrador 1\\Modelos\\VehicleManager.cs",
+              "ToolTip": "C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\Borrador 1\\Modelos\\VehicleManager.cs",
+              "RelativeToolTip": "Borrador 1\\Modelos\\VehicleManager.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:00:10.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmOrder.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\Borrador 1\\Formularios\\FrmOrder.cs",
+              "RelativeDocumentMoniker": "Borrador 1\\Formularios\\FrmOrder.cs",
+              "ToolTip": "C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\Borrador 1\\Formularios\\FrmOrder.cs",
+              "RelativeToolTip": "Borrador 1\\Formularios\\FrmOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T16:44:56.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\Borrador 1\\Modelos\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Borrador 1\\Modelos\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\Borrador 1\\Modelos\\Vehicle.cs",
+              "RelativeToolTip": "Borrador 1\\Modelos\\Vehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T20:31:44.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmCustomer.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\Borrador 1\\Formularios\\FrmCustomer.cs",
+              "RelativeDocumentMoniker": "Borrador 1\\Formularios\\FrmCustomer.cs",
+              "ToolTip": "C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\Borrador 1\\Formularios\\FrmCustomer.cs",
+              "RelativeToolTip": "Borrador 1\\Formularios\\FrmCustomer.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T16:45:16.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\Borrador 1\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "Borrador 1\\FrmLogin.cs",
+              "ToolTip": "C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\Borrador 1\\FrmLogin.cs",
+              "RelativeToolTip": "Borrador 1\\FrmLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:12:11.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Validate.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\Borrador 1\\Modelos\\Validate.cs",
+              "RelativeDocumentMoniker": "Borrador 1\\Modelos\\Validate.cs",
+              "ToolTip": "C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\Borrador 1\\Modelos\\Validate.cs",
+              "RelativeToolTip": "Borrador 1\\Modelos\\Validate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:12:15.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerManager .cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\Borrador 1\\Modelos\\CustomerManager .cs",
+              "RelativeDocumentMoniker": "Borrador 1\\Modelos\\CustomerManager .cs",
+              "ToolTip": "C:\\Users\\mario\\Downloads\\Ah-Manager\\AH-Manager\\Borrador1\\Borrador 1\\Modelos\\CustomerManager .cs",
+              "RelativeToolTip": "Borrador 1\\Modelos\\CustomerManager .cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T16:52:42.294Z"
             }
           ]
         }

@@ -108,7 +108,8 @@
     <Compile Include="Modelos\Customer.cs" />
     <Compile Include="Modelos\CustomerManager .cs" />
     <Compile Include="Modelos\Validate.cs" />
-    <Compile Include="Modelos\Vehiculo.cs" />
+    <Compile Include="Modelos\VehicleManager.cs" />
+    <Compile Include="Modelos\Vehicle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formularios\FrmCustomer.resx">

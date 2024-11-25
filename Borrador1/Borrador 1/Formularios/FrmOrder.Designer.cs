@@ -47,13 +47,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.toolStrip2 = new System.Windows.Forms.ToolStrip();
-            this.btnSaveFile = new System.Windows.Forms.ToolStripButton();
-            this.btnLoadFile = new System.Windows.Forms.ToolStripButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgbOrder)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
-            this.toolStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -253,44 +249,11 @@
             this.label7.TabIndex = 0;
             this.label7.Text = "Modelo";
             // 
-            // toolStrip2
-            // 
-            this.toolStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.btnSaveFile,
-            this.btnLoadFile});
-            this.toolStrip2.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip2.Name = "toolStrip2";
-            this.toolStrip2.Size = new System.Drawing.Size(922, 29);
-            this.toolStrip2.TabIndex = 12;
-            this.toolStrip2.Text = "toolStrip2";
-            // 
-            // btnSaveFile
-            // 
-            this.btnSaveFile.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.btnSaveFile.Image = global::Borrador_1.Properties.Resources.GuardarArch;
-            this.btnSaveFile.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btnSaveFile.Name = "btnSaveFile";
-            this.btnSaveFile.Size = new System.Drawing.Size(34, 24);
-            this.btnSaveFile.Text = "Guardar archivo";
-            this.btnSaveFile.Click += new System.EventHandler(this.btnSaveFile_Click);
-            // 
-            // btnLoadFile
-            // 
-            this.btnLoadFile.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.btnLoadFile.Image = global::Borrador_1.Properties.Resources.Cargar;
-            this.btnLoadFile.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btnLoadFile.Name = "btnLoadFile";
-            this.btnLoadFile.Size = new System.Drawing.Size(34, 24);
-            this.btnLoadFile.Text = "Cargar archivo";
-            this.btnLoadFile.Click += new System.EventHandler(this.btnLoadFile_Click);
-            // 
             // FrmOrder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(922, 596);
-            this.Controls.Add(this.toolStrip2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dgbOrder);
             this.Controls.Add(this.groupBox1);
@@ -304,8 +267,6 @@
             this.groupBox1.PerformLayout();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
-            this.toolStrip2.ResumeLayout(false);
-            this.toolStrip2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -331,8 +292,5 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ToolStrip toolStrip2;
-        private System.Windows.Forms.ToolStripButton btnSaveFile;
-        private System.Windows.Forms.ToolStripButton btnLoadFile;
     }
 }
