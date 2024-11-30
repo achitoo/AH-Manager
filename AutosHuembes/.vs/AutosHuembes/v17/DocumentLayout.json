@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mario\\Downloads\\AutosHuembes\\AutosHuembes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D31F941D-85E3-495C-829A-C320E58E73E0}|AutosHuembes\\AutosHuembes.csproj|c:\\users\\mario\\downloads\\autoshuembes\\autoshuembes\\autoshuembes\\formularios\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D31F941D-85E3-495C-829A-C320E58E73E0}|AutosHuembes\\AutosHuembes.csproj|solutionrelative:autoshuembes\\formularios\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31F941D-85E3-495C-829A-C320E58E73E0}|AutosHuembes\\AutosHuembes.csproj|c:\\users\\mario\\downloads\\autoshuembes\\autoshuembes\\autoshuembes\\formularios\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D31F941D-85E3-495C-829A-C320E58E73E0}|AutosHuembes\\AutosHuembes.csproj|solutionrelative:autoshuembes\\formularios\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmInicio.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Downloads\\AutosHuembes\\AutosHuembes\\AutosHuembes\\Formularios\\FrmInicio.cs",
+              "RelativeDocumentMoniker": "AutosHuembes\\Formularios\\FrmInicio.cs",
+              "ToolTip": "C:\\Users\\mario\\Downloads\\AutosHuembes\\AutosHuembes\\AutosHuembes\\Formularios\\FrmInicio.cs",
+              "RelativeToolTip": "AutosHuembes\\Formularios\\FrmInicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T04:57:33.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmInicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\mario\\Downloads\\AutosHuembes\\AutosHuembes\\AutosHuembes\\Formularios\\FrmInicio.cs",
+              "RelativeDocumentMoniker": "AutosHuembes\\Formularios\\FrmInicio.cs",
+              "ToolTip": "C:\\Users\\mario\\Downloads\\AutosHuembes\\AutosHuembes\\AutosHuembes\\Formularios\\FrmInicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "AutosHuembes\\Formularios\\FrmInicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:21:34.241Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

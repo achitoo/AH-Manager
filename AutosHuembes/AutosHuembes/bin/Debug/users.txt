@@ -1,0 +1,2 @@
+Mario Carrion,excmario,1,mario123,Autorizado
+prueba,test,asda@gmail.com,123,Autorizado
